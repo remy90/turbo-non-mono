@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  distDir: './.next',
-  output: 'standalone',
+  // distDir: './.next',
+  // output: 'standalone',
   basePath: "",
   cleanDistDir: true,
 };
