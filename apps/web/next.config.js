@@ -13,7 +13,7 @@ const nextConfig = {
     // this includes files from the monorepo base two directories up
     outputFileTracingRoot: path.join(__dirname, '../../'),
     outputFileTracingIncludes: {
-      '/apps/web': ['./.next/'],
+      '/apps/web': ['./.next/', './node_modules/next'],
     },
   },
 };
